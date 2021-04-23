@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: bashofmann/rancher-demo:1.0.0
+          image: public.ecr.aws/m4v5m2q7/susesouthemea/rancher-demo:1.0.0
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
